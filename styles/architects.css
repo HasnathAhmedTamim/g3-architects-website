@@ -254,19 +254,20 @@ main {
   margin: 200px 200px;
   display: flex;
 
-  text-align: center;
+  align-items: center;
 
   border-radius: 0.5rem;
   background: #fff4e7;
+  justify-content: center;
 }
 .fot-text {
-  color: var(--dark-02, #424242);
-  text-align: center;
+  color: #424242;
+
   font-family: Work Sans;
   font-size: 1rem;
-  font-style: normal;
+
   font-weight: 400;
-  line-height: normal;
+
   padding: 40px;
 }
 /* responsive for small */
@@ -281,21 +282,12 @@ main {
     position: relative;
     right: 15px;
   }
-  .footer-section {
-    text-align: center;
-    align-items: center;
-  }
-  .fot-text {
+  .footer {
+    
     border-radius: 0.5rem;
     background: #fff4e7;
-    height: 10%;
-
-    padding: 20px;
-  
-    
-    margin-left: -100px;
-    font-size: 0.8rem;
   }
+
   .nav-container,
   .feature-container,
   .team-container,
