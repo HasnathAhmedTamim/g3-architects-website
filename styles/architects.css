@@ -204,6 +204,53 @@ main {
   margin-top: 100px;
   margin-bottom: 150px;
 }
+.ten-h {
+  margin: 0 0;
+  padding: 30px;
+}
+.ten-p {
+  color: #fff;
+
+  font-size: 1rem;
+
+  font-weight: 500;
+  line-height: 2.5rem;
+  margin: 0;
+}
+/* feature */
+.feature-container {
+  display: flex;
+  margin-top: 100px;
+  gap: 150px;
+}
+.feature-content .card {
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+  margin: 25px;
+}
+.feature-container .section-tit {
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+.ten-year {
+  border-radius: 0.4rem;
+  background: #ff900e;
+  color: #fff;
+  text-align: center;
+
+  font-size: 1.5rem;
+
+  font-weight: 700;
+  width: 350px;
+  height: 200px;
+
+  position: relative;
+  right: 80px;
+  bottom: 130px;
+}
+
 /* responsive for small */
 
 @media screen and (max-width: 576px) {
@@ -218,8 +265,10 @@ main {
   }
 
   .nav-container,
+  .feature-container,
   .team-container,
-  .facts-cards-container,.sponsor-img-container {
+  .facts-cards-container,
+  .sponsor-img-container {
     /* display: flex; */
     /* justify-content: space-between; */
 
@@ -243,15 +292,32 @@ main {
   .facts-container {
     margin: 0 45px 0 45px;
   }
-  .sponsor-img-container{
+  .sponsor-img-container {
     width: 160px;
     gap: 50px;
-    
+
     /* position: relative;
     left: 120px; */
     margin: 0 auto;
   }
-
+  .feature-img img {
+    width: 85%;
+    padding: 20px;
+  }
+  .ten-year {
+    height: 10vh;
+    width: 20wh;
+    padding: 2px;
+    margin-right: 200px;
+    position: relative;
+    top: -30px;
+  }
+  .ten-h {
+    padding: 2px;
+  }
+  .ten-p {
+    padding: 2px;
+  }
 }
 
 /* responsive for medium  */
@@ -267,7 +333,9 @@ main {
     right: 15px;
   }
   .nav-container,
-  .team-container, .sponsor-img-container{
+  .team-container,
+  .sponsor-img-container,
+  .feature-container {
     flex-direction: column;
 
     /* display: flex; */
@@ -289,13 +357,30 @@ main {
   .facts-container {
     margin: 0 100px 0 100px;
   }
-   .sponsor-img-container{
+  .sponsor-img-container {
     width: 100px;
     gap: 30px;
-    
+
     /* position: relative;
     left: 120px; */
     margin: 0 auto;
-   
+  }
+  .ten-year {
+    height: 10vh;
+    width: 20wh;
+    padding: 80px;
+    margin-right: 200px;
+    position: relative;
+    top: -30px;
+  }
+  .ten-h {
+    padding: 2px;
+  }
+  .ten-p {
+    padding: 2px;
+  }
+    .feature-img img {
+    width: 85%;
+    padding: 20px;
   }
 }
